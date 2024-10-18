@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversario</title>
+    <link rel="stylesheet" href="p1.css">
+
+</head>
+<body>
+    
+
+    <form>
+
+        <h2>Feliz Aniversario</h2>
+        <br>
+        <input type="password" placeholder="Senha" id="senha">
+        <input type="submit" value="SURPRESSA" onclick="logar(); return false">
+
+    </form>
+
+
+    <script>
+
+
+        function logar(){
+
+            var senha = document.getElementById('senha').value;
+
+            if(senha == "luiz"){
+                alert('Sucesso');
+                location.href = "luiz.html";
+            }else{
+                alert('Usuario ou senha incorretos');
+            }
+
+        }
+
+    </script>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p>Não sei porque, mas estou feliz de estar fazendo isso, <br> mas acho que é amor</p>
+
+</body>
+</html>
